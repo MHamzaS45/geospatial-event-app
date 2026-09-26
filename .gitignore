@@ -1,0 +1,10 @@
+
+# Ignore PyInstaller temporary build folders and specs
+build/
+*.spec
+__pycache__/
+.venv/
+
+# Ignore everything inside dist/ EXCEPT our finished executable
+dist/*
+!dist/GeoWatch.exe
