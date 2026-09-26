@@ -4,6 +4,7 @@ build/
 *.spec
 __pycache__/
 .venv/
+.vscode
 
 # Ignore everything inside dist/ EXCEPT our finished executable
 dist/*
