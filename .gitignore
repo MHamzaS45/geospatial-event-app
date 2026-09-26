@@ -4,8 +4,19 @@ build/
 *.spec
 __pycache__/
 .venv/
-.vscode
 
-# Ignore everything inside dist/ EXCEPT our finished executable
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+!*.code-workspace
+
+# Built Visual Studio Code Extensions
+*.vsix
+
+# Ignore everything inside dist/ EXCEPT the finished executable
 dist/*
 !dist/GeoWatch.exe
